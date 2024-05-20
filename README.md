@@ -17,7 +17,7 @@ Download the models: [LIQE.pt](https://drive.google.com/file/d/1jEG9IwyqJqplUtCr
 
 ### Test the model
 ```
-CUDA_VISIBLE_DEVICES=0 python -u models/test_images.py --image_path samples/ --image_name 0_Indoor_Scene_0.jpg
+CUDA_VISIBLE_DEVICES=0 python -u models/test_images.py --image_path samples/ --image_name 1000_Indoor_Scene_10.jpg
 ```
 
 ### Train DN-PIQA model on PIQ dataset
