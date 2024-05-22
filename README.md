@@ -12,7 +12,7 @@ pip install ipython matplotlib opencv-python pandas PyYAML scipy seaborn tqdm re
 ```
 
 ### Download the pre-trained model
-Download the models: [LIQE.pt](https://drive.google.com/file/d/1jEG9IwyqJqplUtCrR49MjVEswPXA9V6S/view?usp=sharing), [preweight.pt](https://drive.google.com/file/d/1MvB55XoWpI6iQHTv8K4kzxuq5gtrbYNw/view?usp=sharing), [PIQ_model.pth](https://drive.google.com/file/d/1y3T8DCwhYZtLN_QrN70qE8yZ1r8Bi-dG/view?usp=sharing), and put them into the folder of weights
+Download the models: [LIQE.pt](https://drive.google.com/file/d/1jEG9IwyqJqplUtCrR49MjVEswPXA9V6S/view?usp=sharing), [preweight.pt](https://drive.google.com/file/d/1MvB55XoWpI6iQHTv8K4kzxuq5gtrbYNw/view?usp=sharing), [PIQ_model.pth](https://drive.google.com/file/d/1y3T8DCwhYZtLN_QrN70qE8yZ1r8Bi-dG/view?usp=sharing), and put them into the folder of weights. Note that PIQ_model.pth is trained on PIQ dataset.
 
 
 ### Test the model
@@ -84,6 +84,20 @@ CUDA_VISIBLE_DEVICES=0,1 python -u models/train.py \
 --loss_type fidelity \
 >> logs/train.log
 ```
+
+
+### Citation
+**If you find this code is useful for  your research, please cite**:
+
+```latex
+@inproceedings{sun2024Enhancing,
+  title={Dual-Branch Network for Portrait Image Quality Assessment},
+  author={Sun, Wei and Zhang, Weixia and Jiang, Yanwei and Wu, Haoning and Zhang, Zicheng and Jia, Jun and Zhou, Yingjie and Ji, Zhongpeng and Min, Xiongkuo and Lin, Weisi and Zhai Guangtao},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  year={2024}
+}
+```
+
 
 
 ## Acknowledgement
